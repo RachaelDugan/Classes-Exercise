@@ -17,14 +17,15 @@
             //car1.Year = 2019;
             //car2.Year = 2011;
 
-            Console.WriteLine("These are cars.");
-            Console.WriteLine(car1.Make);
-            Console.WriteLine(car1.Model);
-            Console.WriteLine(car1.Year);
+            Console.WriteLine("Cars for sale!!");
             Console.WriteLine();
-            Console.WriteLine(car2.Make);
-            Console.WriteLine(car2.Model);
-            Console.WriteLine(car2.Year);
+            Console.WriteLine(car1.Make + " " + car1.Model + " " + car1.Year);
+            //Console.WriteLine(car1.Model);
+            //Console.WriteLine(car1.Year);
+            Console.WriteLine();
+            Console.WriteLine(car2.Make + " " + car2.Model + " " + car2.Year);
+            //Console.WriteLine(car2.Model);
+            //Console.WriteLine(car2.Year);
         }
         
     }
